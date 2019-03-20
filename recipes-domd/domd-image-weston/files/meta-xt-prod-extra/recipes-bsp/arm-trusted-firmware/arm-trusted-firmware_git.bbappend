@@ -1,8 +1,9 @@
-FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
+LIC_FILES_CHKSUM = "file://license.rst;md5=e927e02bca647e14efd87e9e914b2443"
 
-SRC_URI += "\
-    file://0001-rcar-Use-UART-instead-of-Secure-DRAM-area-for-loggin.patch \
-    file://0002-tools-Produce-two-cert_header_sa6-images.patch \
+SRCREV = "${AUTOREV}"
+
+SRC_URI = "\
+    git://github.com/xen-troops/arm-trusted-firmware.git;branch=s2ram \
 "
 
 do_deploy_append () {
