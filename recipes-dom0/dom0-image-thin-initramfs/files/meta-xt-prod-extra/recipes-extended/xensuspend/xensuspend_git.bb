@@ -4,7 +4,7 @@ LICENSE = "GPLv2"
 
 SRCREV = "master"
 SRC_URI = "\
-	  git://github.com/lorc/xensuspend.git;protocol=https \
+	  git://github.com/xen-troops/xensuspend.git;protocol=https \
 	  file://xensuspend \
 	  "
 LIC_FILES_CHKSUM = "file://LICENSE;md5=e8c1458438ead3c34974bc0be3a03ed6"
