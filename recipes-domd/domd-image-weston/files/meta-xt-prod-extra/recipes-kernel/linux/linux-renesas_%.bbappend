@@ -13,6 +13,7 @@ SRC_URI_append = " \
 
 SRC_URI_append_rcar = " \
     file://xen-chosen.dtsi;subdir=git/arch/${ARCH}/boot/dts/renesas \
+    file://scpi.dtsi;subdir=git/arch/${ARCH}/boot/dts/renesas \
 "
 
 DEPLOYDIR="${XT_DIR_ABS_SHARED_BOOT_DOMD}"
